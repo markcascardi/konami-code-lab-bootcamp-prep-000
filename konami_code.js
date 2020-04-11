@@ -17,16 +17,16 @@ function init() {
   document.body.addEventListener("keydown", (event) => {
     const key = event.key;
 
-    // if (key === codes[index]) {
-    //   index++;
-    //
-    //   if (index === codes.length) {
-    //     alert("Hurray!");
-    //
-    //     index = 0;
-    //   }
-    // } else {
-    //   index = 0;
-    // }
+    if (key === codes[index]) {
+      index++;
+    
+      if (index === codes.length) {
+        alert("Hurray!");
+    
+        index = 0;
+      }
+    } else {
+      index = 0;
+    }
   })
 }
